@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.form {
+  max-width: 20rem;
+  margin-inline: auto;
+}
+
+.imgStyle {
+  width: clamp(3rem, 2vw + 2.5rem, 5rem);
+  height: clamp(1rem, 2vw + 0.5rem, 1.666rem);
+  background-color: aliceblue;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 100vw;
+}
+
+.top-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: clamp(1.2rem, 2vw + 0.5rem, 2rem);
+  color: aliceblue;
+  background-color: black;
+  border-color: #B80407;
+  border-radius: 120px 120px;
+  border-bottom-style: groove;
+  border-bottom-width: thick;
+  margin-inline: 1rem;
+}
