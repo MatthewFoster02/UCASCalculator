@@ -2,7 +2,7 @@ function validateData()
 {
     let elements = document.getElementById("my-form").elements;
 
-    const allowed_ch = ['H1', 'H2', 'H3', 'H4', 'H5', 'H6', 'H7', 'O1', 'O2', 'O3', 'O4', 'O5', 'O6', 'O7'];
+    const allowed_ch = ['H1', 'H2', 'H3', 'H4', 'H5', 'H6', 'H7', 'H8', 'O1', 'O2', 'O3', 'O4', 'O5', 'O6', 'O7', 'O8'];
     let valid = true;
     let scores = [];
     let name = "";
@@ -41,13 +41,15 @@ function calculateScore(scores, name)
         "H5": 12,
         "H6": 9,
         "H7": 0,
+        "H8": 0,
         "O1": 12,
         "O2": 10,
         "O3": 8,
         "O4": 6,
         "O5": 0,
         "O6": 0,
-        "O7": 0
+        "O7": 0,
+        "O8": 0
     };
 
     let score = 0;
