@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.title {
+  margin: auto;
+  text-align: center;
+  font-weight: bolder;
+}
+
 body {
   overflow-x: hidden;
 }
